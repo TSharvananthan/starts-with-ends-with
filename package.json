@@ -1,9 +1,6 @@
 {
   "name": "starts-with-ends-with",
   "version": "0.1.0",
-  "description": "A small application that searches for words based on the first and last letters",
-  "author": "Thanussian Sharvananthan",
-  "homepage": "https://github.com/TSharvananthan/starts-with-ends-with",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
