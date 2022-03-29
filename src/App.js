@@ -20,14 +20,14 @@ function App() {
 
             <div>
               that start with
-              <select className="ml-8 mt-6" onChange={e => setFirstLetter(e.target.value)}>
+              <select className="ml-8 mt-6 bg-slate-900" onChange={e => setFirstLetter(e.target.value)}>
                 { alphabetList.map(a => <option value={a} key={a}>{a}</option>) }
               </select>
             </div>
 
             <div>
               and end with
-              <select className="ml-8 mt-4" onChange={e => setLastLetter(e.target.value)}>
+              <select className="ml-8 mt-4 bg-slate-900" onChange={e => setLastLetter(e.target.value)}>
                 { alphabetList.map(a => <option value={a} key={a}>{a}</option>) }
               </select>
               <Link to={`/first=${firstLetter}&last=${lastLetter}`}>
